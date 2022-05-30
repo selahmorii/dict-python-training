@@ -18,7 +18,7 @@ class ClubMembers:
         print("Goal in life: ", self.goal)
 
 class ClubOfficers(ClubMembers):
-    def __init__(self, name, bday, age, food, goal, position):
+    def __init__(self, name, bday, age, food, goal, position): #overrides
         super().__init__(name, bday, age, food, goal)
         self.position = position
 
